@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family:"Arimo", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #e0e0e0;
+}
+
+nav {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+#logo-loja {
+    width: 100px;
+    height: 100px;
+    padding-right: 20px;
+}
+
+main {
+    background-color: #efefef;
+}
+
+h1 {
+    padding-left: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+}
+
+.input-grupo {
+    margin-bottom: 15px;
+
+}
+
+.input-grupo p{
+    font-size: 10px;
+    color: green;
+}
+
+#mensagem {
+    margin-top: 10px;
+}
+
+.dados-grupo {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+button {
+    background-color: rgb(12, 20, 85);
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+@media (width <= 870px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
