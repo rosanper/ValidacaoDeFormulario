@@ -69,6 +69,12 @@ AVA3/
 └── login.html
 ```
 
+## 🌐 Publicação
+
+O site estático pode ser visualizado através do  [GitHub Pages](https://rosanper.github.io/ValidacaoDeFormulario/) conforme solicitado no projeto.
+
+
+
 ## 🧠 Objetivo Acadêmico
 
 Este projeto tem como propósito:
